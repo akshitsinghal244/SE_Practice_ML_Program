@@ -37,4 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install flask scikit-learn matplotlib numpy pandas
-        pytest
+        pytest rand_test.py
