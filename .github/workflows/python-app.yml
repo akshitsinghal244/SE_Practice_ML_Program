@@ -36,7 +36,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run SE Code
       run: |
-        pip install flask scikit-learn matplotlib numpy pandas
+        pip install flask scikit-learn matplotlib numpy pandas pylint
         python se_code.py
         pylint se_code.py
       
