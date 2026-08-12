@@ -38,3 +38,5 @@ jobs:
       run: |
         pip install flask scikit-learn matplotlib numpy pandas
         python se_code.py
+        pylint se_code.py
+      
