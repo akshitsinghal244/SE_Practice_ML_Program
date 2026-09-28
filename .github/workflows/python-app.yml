@@ -37,6 +37,6 @@ jobs:
     - name: Run SE Code
       run: |
         pip install flask scikit-learn matplotlib numpy pandas pylint
-        python rand_test.py
-        pylint rand_test.py
+        python .github/workflows/rand_test.py
+        pylint .github/workflows/rand_test.py
       
