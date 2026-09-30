@@ -13,6 +13,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()a = 20
-b = 15
-print (a+b)
+    main()
